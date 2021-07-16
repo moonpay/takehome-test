@@ -7,7 +7,7 @@
   </p>
 </div>
 
-# Takehome Test (Full-Stack)
+# Take Home Test (Backend & Frontend)
 
 ## Overview
 
@@ -35,9 +35,12 @@ For the frontend portion of the test, use the `/frontend` folder. There are 7 fe
 
 Feel free to structure the code however you prefer and use third-party libraries at your discretion.
 
+Do not spend too much time on making it beautiful. Basic aesthetics are welcome, but we are not
+grading your design skills here.
+
 ### API Information
 
-- **MoonPay API `GET /v3/currencies` endpoint:** https://api.moonpay.io/v3/currencies
+- **MoonPay API `GET /v3/currencies` endpoint:** https://api.moonpay.com/v3/currencies
 
 ## Backend
 
