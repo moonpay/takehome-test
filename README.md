@@ -12,8 +12,8 @@
 ## Overview
 
 This is a takehome test for candidates applying for a full-stack developer
-position at MoonPay. It contains four sections: "Frontend", "Backend", "Databases" and "Follow-up" which
-together include a series of tests involving HTML, CSS, JavaScript, Node.js and SQL.
+position at MoonPay. It contains three sections: "Frontend", "Backend" and "Follow-up" which
+together include a series of tests involving HTML, CSS, JavaScript and Node.js.
 
 Feel free to solve these questions however you see fit, using whatever coding
 style or third-party libraries you think are appropriate.
@@ -73,30 +73,6 @@ Feel free to structure the code however you prefer and use third-party libraries
 - **Coinbase Prime API Documentation:** https://docs.prime.coinbase.com/
 
 _Note that both APIs above are public and don't require any authentication._
-
-## Databases
-
-For the databases portion of the test, use the `/databases` folder.
-
-Let's say you have two SQL tables: `users` and `transactions`.
-
-The `users` dataset has 1M+ rows; here are the first three:
-| id | email | country |
-|--------|------------------|---------|
-| user_1 | user1@moonpay.io | FRA |
-| user_2 | user2@moonpay.io | GBR |
-| user_3 | user3@moonpay.io | USA |
-
-The `transactions` dataset has 1M+ rows; here are the first three:
-| id | quote_currency | usd_amount | user_id |
-|---------------|----------------|------------|---------|
-| transaction_1 | btc | 100 | user_3 |
-| transaction_2 | btc | 2000 | user_2 |
-| transaction_3 | eth | 50 | user_1 |
-
-1. Create a SQL query that shows the TOP 3 customers who spent the most.
-2. Write an SQL query to find out how many users spent more than $1,000 but less than $2,000.
-3. Print every country where the average lifetime spending per user is lower than \$500.
 
 ## Follow-up
 
